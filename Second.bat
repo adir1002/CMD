@@ -6,6 +6,6 @@ md second\%firstname%%lastname%
 md second\%firstname%%lastname%\Logs
 echo %TIME%>c:\Log.txt
 copy c:\Log.txt Log.txt
-rm c:\Log.txt
+del c:\Log.txt
 ECHO ALL DONE!
 PAUSE
